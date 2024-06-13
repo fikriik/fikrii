@@ -22,7 +22,7 @@ const Banner = () => {
             <p className='font-medium text-[25px] font-bebas_neue text-center text-black mb-6'>
             CREATE PROFESSIONAL PROJECTS
             </p>
-            <p className='font-medium text-[px] font-bebas_neue text-center text-black mb-6 uppercase'>
+            <p className='font-medium text-[12px] text-center text-black mb-6 uppercase'>
             Travel documentation plays an important role in immortalizing the experiences and learning gained during a trip. Whether it&apos;s a personal trip, tourist trip, or business trip, documenting every step and moment that occurs provides many benefits, both for the individual himself and for other people who can learn from the experience.
             </p>
             <div className="mb-10">
