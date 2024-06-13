@@ -11,7 +11,7 @@ const Filter1 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/explorer.jpg" 
+                                src="/images/explorer.JPG" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -39,7 +39,7 @@ const Filter1 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/mountain.jpg" 
+                                src="/images/mountain.JPG" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -67,7 +67,7 @@ const Filter1 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/sky.jpg" 
+                                src="/images/sky.JPG" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -95,7 +95,7 @@ const Filter1 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/waterfal.jpg" 
+                                src="/images/waterfal.JPG" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
