@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex items-center">
         <Link href={"/"} className="flex gap-x-2 items-center mr-[100px]">
           {/* <Image src="/images/nlp-logo.png" alt="logo" width={50} height={40} /> */}
-          <h3 className="font-semibold text-black hidden lg:block">pakfikrii</h3>
+          <h3 className="font-semibold text-black hidden lg:block">pakpikri</h3>
         </Link>
         <ul className="hidden lg:flex lg:items-center lg:gap-x-8 text-black mr-10">
           <div className="col-span-1 justify-self-left relative group">
