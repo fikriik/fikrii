@@ -22,7 +22,7 @@ const Banner = () => {
             <p className='font-medium text-[25px] font-bebas_neue text-center text-black mb-6'>
             CREATE PROFESSIONAL PROJECTS
             </p>
-            <p className='font-medium text-[16px] font-bebas_neue text-center text-black mb-6'>
+            <p className='font-medium text-[px] font-bebas_neue text-center text-black mb-6 uppercase'>
             Travel documentation plays an important role in immortalizing the experiences and learning gained during a trip. Whether it&apos;s a personal trip, tourist trip, or business trip, documenting every step and moment that occurs provides many benefits, both for the individual himself and for other people who can learn from the experience.
             </p>
             <div className="mb-10">
@@ -34,8 +34,8 @@ const Banner = () => {
                         <div
                             className={` ${
                             activeFilter === "filter1"
-                                ? "text-[#fd7f28] font-medium border-b-[6px] border-[#fd7f28]"
-                                : " text-[#9a9a9a] font-medium hover:border-b-[6px] border-[#fd7f28]"
+                                ? "text-[#000] font-medium border-b-[2px] border-[#000]"
+                                : " text-[#9a9a9a] font-medium hover:border-b-[2px] border-[#000]"
                             }`}
                             onClick={() => handleFilterClick("filter1")}
                         >
@@ -44,8 +44,8 @@ const Banner = () => {
                         <div
                             className={` ${
                             activeFilter === "calender2"
-                                ? "text-[#fd7f28] font-medium border-b-[6px] border-[#fd7f28]"
-                                : " text-[#9a9a9a] font-medium hover:border-b-[6px] border-[#fd7f28]"
+                                ? "text-[#000] font-medium border-b-[2px] border-[#000]"
+                                : " text-[#9a9a9a] font-medium hover:border-b-[2px] border-[#000]"
                             }`}
                             onClick={() => handleFilterClick("calender2")}
                         >
@@ -54,8 +54,8 @@ const Banner = () => {
                         <div
                             className={` ${
                             activeFilter === "modern"
-                                ? "text-[#fd7f28] font-medium border-b-[6px] border-[#fd7f28]"
-                                : " text-[#9a9a9a] font-medium hover:border-b-[6px] border-[#fd7f28]"
+                                ? "text-[#000] font-medium border-b-[2px] border-[#000]"
+                                : " text-[#9a9a9a] font-medium hover:border-b-[2px] border-[#000]"
                             }`}
                             onClick={() => handleFilterClick("modern")}
                         >
