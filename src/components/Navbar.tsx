@@ -150,7 +150,6 @@ const Navbar = () => {
               <p className="font-semibold text-center">Request Demo</p>
             </div>
           </Link>
-          
         </div>
       </div>
     </div>
