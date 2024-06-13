@@ -24,86 +24,27 @@ const Navbar = () => {
       )}
     >
       <div className="lg:mx-auto lg:flex lg:justify-between lg:w-[1200px] container mx-auto max-w-[1200px]">
-        <div className="flex items-center">
+        <div className="flex items-center justify-between">
         <Link href={"/"} className="flex gap-x-2 items-center mr-[100px]">
           {/* <Image src="/images/nlp-logo.png" alt="logo" width={50} height={40} /> */}
-          <h3 className="font-semibold text-black hidden lg:block">pakpikri</h3>
+          <h3 className="font-semibold text-black hidden lg:block text-[24px]">P A K P I K R I I</h3>
         </Link>
-        <ul className="hidden lg:flex lg:items-center lg:gap-x-8 text-black mr-10">
-          <div className="col-span-1 justify-self-left relative group">
-          <p className="flex items-center text-[14px] text-[#5d7287] hover:text-black cursor-pointer">
-            PROJECT <FaAngleDoubleDown size={15} className="ml-2" />
-          </p>
-          <ul className="px-4 py-4 hidden absolute space-y-2 bg-white shadow rounded-lg group-hover:block min-w-[220px] top-full">
-            {/* Tambahkan pilihan menu di sini */}
-            <div className="grid grid-cols-1 gap-0">
-              <li className="text-black hover:bg-[#F6FAFF] font-normal hover:rounded-xl py-2 px-4">
-                <Link href="/" >
-                  <div className="flex items-center gap-3">
-                  <div>
-                    <p className="text-[14px] font-semibold">
-                     CANON EOS R8
-                    </p>
-                  </div>
-                  </div>
-                </Link>
-              </li>
-
-              <li className="text-black hover:bg-[#F6FAFF] font-normal hover:rounded-xl py-2 px-4">
-                <Link href="/" >
-                  <div className="flex items-center gap-3">
-                  <div>
-                    <p className="text-[14px] font-semibold">
-                      PUNCAK PANGGANG
-                    </p>
-                  </div>
-                  </div>
-                </Link>
-              </li>
-
-              <li className="text-black hover:bg-[#F6FAFF] font-normal hover:rounded-xl py-2 px-4">
-                <Link href="/" >
-                  <div className="flex items-center gap-3">
-                  <div>
-                    <p className="text-[14px] font-semibold">
-                      BROMEN
-                    </p>
-                  </div>
-                  </div>
-                </Link>
-              </li>
-
-              <li className="text-black hover:bg-[#F6FAFF] font-normal hover:rounded-xl py-2 px-4">
-                <Link href="/" >
-                  <div className="flex items-center gap-3">
-                  <div>
-                    <p className="text-[14px] font-semibold">
-                     TRYPOD BEIKE
-                    </p>
-                  </div>
-                  </div>
-                </Link>
-              </li>
-            </div>
-          </ul>
+        
         </div>
-        </ul>
-          <p className="flex items-center text-[14px] text-[#5d7287] hover:text-black cursor-pointer mr-10">
+        <div className="flex items-center gap-6">
+          <p className="flex items-center text-[12px] text-[#5d7287] hover:text-black cursor-pointer mr-10">
+            PORTFOLIO
+            </p>
+          <p className="flex items-center text-[12px] text-[#5d7287] hover:text-black cursor-pointer mr-10">
+            PROFESSIONAL
+          </p>
+          <p className="flex items-center text-[12px] text-[#5d7287] hover:text-black cursor-pointer mr-10">
+            VIDEOGRAPHY
+          </p>
+          <p className="flex items-center text-[12px] text-[#5d7287] hover:text-black cursor-pointer">
             CONTACT
           </p>
-          <p className="flex items-center text-[14px] text-[#5d7287] hover:text-black cursor-pointer mr-10">
-            CAREER
-          </p>
-          <p className="flex items-center text-[14px] text-[#5d7287] hover:text-black cursor-pointer">
-            ARTICLE
-          </p>
-        </div>
-
-        <ul className="hidden lg:flex lg:items-center lg:gap-x-8 text-black">
-          <button className="hover:bg-black bg-[#1e3650] text-white font-medium text-[14px] font-roboto px-6 py-2 md:px-4 rounded-md">
-              Sign In / Register
-          </button>
-        </ul>
+          </div>
       </div>
 
       <div

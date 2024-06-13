@@ -21,7 +21,7 @@ const Filter1 = () => {
                     </div>
                     <div className='col-span-3 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-start sm:justify-self-center w-full'>
                         <p className='text-white text-[28px] font-bebas_neue'>
-                            Tommy’s Margarita
+                            EXPLORER
                         </p>
                         <p className='text-[16px] text-[#9a9a9a] mb-2'>
                             Tomatoes Beef, Eggs, poached Beef, Eggs, poached, with bacon, Bacon, chorizo, roasted roma

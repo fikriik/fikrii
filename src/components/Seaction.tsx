@@ -19,11 +19,11 @@ const Banner = () => {
       >
         <div className="">
           <div className="container mx-auto max-w-[1140px] py-10 md:py-28 md:px-0">
-            <p className='text-center text-[38px] font-medium font-dancing_script text-[#D7B686]'>
-                PORTFOLIO
-            </p>
-            <p className='font-medium text-[25px] font-bebas_neue text-center text-black'>
+            <p className='font-medium text-[25px] font-bebas_neue text-center text-black mb-6'>
             CREATE PROFESSIONAL PROJECTS
+            </p>
+            <p className='font-medium text-[16px] font-bebas_neue text-center text-black mb-6'>
+            Travel documentation plays an important role in immortalizing the experiences and learning gained during a trip. Whether it's a personal trip, tourist trip, or business trip, documenting every step and moment that occurs provides many benefits, both for the individual himself and for other people who can learn from the experience.
             </p>
             <div className="mb-10">
                 <div className="flex justify-center">
