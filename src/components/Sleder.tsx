@@ -16,17 +16,17 @@ const MarqueeWithImages = () => {
             className="w-30 h-14 transition-all duration-200 ease-in-out transform hover:scale-105 grayscale hover:grayscale-0"
           />
           <img
-            src="/images/f.png"
+            src="/images/image3.png"
             alt="Image 3"
             className="w-30 h-14 transition-all duration-300 ease-in-out transform hover:scale-105 grayscale hover:grayscale-0"
           />
           <img
-            src="/images/calculateurage.png"
+            src="/images/image4.png"
             alt="Image 4"
             className="w-30 h-14 transition-all duration-300 ease-in-out transform hover:scale-105 grayscale hover:grayscale-0"
           />
           <img
-            src="/images/taqwim-logo.webp"
+            src="/images/image5.png"
             alt="Image 5"
             className="w-30 h-14 transition-all duration-300 ease-in-out transform hover:scale-105 grayscale hover:grayscale-0"
           />
