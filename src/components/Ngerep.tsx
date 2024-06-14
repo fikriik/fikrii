@@ -31,14 +31,14 @@ const Banner = () => {
                 <div className="">
                 <div className="relative">
                   <img
-                    src="/images/naim.jpg"
+                    src="/images/naim.JPG"
                     alt="profil"
                     width={400}
                     height={400}
                     className="border-2 border-[#534842] rounded-tl-[100px]"
                   />
                   <Image
-                    src="/images/waterfal.jpg"
+                    src="/images/waterfal.JPG"
                     width={350}
                     height={150}
                     alt="mail"
