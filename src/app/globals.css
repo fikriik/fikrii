@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-images {
+  display: flex;
+  animation: marquee 35s linear infinite;
+}
+
+.marquee-images img {
+  margin-right: 100px;
+  /* Jarak antara gambar-gambar */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
