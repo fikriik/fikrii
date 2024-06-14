@@ -15,7 +15,8 @@ const config: Config = {
       },
     },
     fontFamily: {
-      bebas_neue: ['var(--font-bebas_neue)']
+      bebas_neue: ['var(--font-bebas_neue)'],
+      dancing_script: ['var(--font-dancing_script)'],
     },
   },
   plugins: [],

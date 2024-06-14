@@ -16,10 +16,10 @@ const Banner = () => {
                   Welcome Videographer
                 </p>
                 <h1 className="text-white text-3xl md:text-[50px] font-semibold leading-tight">
-                  Videography kami akan membantu brand kalian dengan kualitas yang lebih profesional
+                  Kami Siap Membantu Membangun Brand Kalian Lebih keren!
                 </h1>
                 <p className="mt-8 text-white text-[20px]">
-                  Dengan skil yang kami punya kami siap membangun brand yang lebih provesional, jangan ragu dan langsung boking
+                  Memberi visual sebuah brand yang siap saing di mancanegara,jangan ragu untuk memulai.
                 </p>
                 <div className="flex gap-x-4 md:gap-x-4 items-center mt-10">
                   <button className="hover:bg-[#D7B686] border-2 border-[#D7B686] text-white font-medium px-6 py-3 md:px-12 rounded-full">
@@ -31,9 +31,9 @@ const Banner = () => {
                 <div className="">
                 <div className="relative">
                   <img
-                    src="/images/imagee.jpg"
+                    src="/images/naim.jpg"
                     alt="profil"
-                    width={420}
+                    width={400}
                     height={400}
                     className="border-2 border-[#534842] rounded-tl-[100px]"
                   />
