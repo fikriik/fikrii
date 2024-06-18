@@ -11,7 +11,7 @@ const Filter3 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/image3.png" 
+                                src="/images/graduation.jpg" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -22,10 +22,10 @@ const Filter3 = () => {
                     </div>
                     <div className='col-span-3 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-start sm:justify-self-center w-full'>
                         <p className='text-black text-[28px] font-bebas_neue'>
-                            EIGER
+                            GRADUATION
                         </p>
                         <p className='text-[16px] text-[#9a9a9a] mb-2'>
-                        A geographic explorer focuses on discovering and mapping unknown areas. mountains, deserts, or polar regions.
+                        Capture special moments of graduation and have fun with us and be ready to welcome the future.
                         </p>
                         <div className='flex items-center gap-2 mt-4'>
                             <p className='text-[14px] font-semibold  text-[#000]'> Read More </p> 
@@ -39,7 +39,7 @@ const Filter3 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/DJI.jpg" 
+                                src="/images/wedding.jpg" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -50,10 +50,10 @@ const Filter3 = () => {
                     </div>
                     <div className='col-span-3 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-start sm:justify-self-center w-full'>
                         <p className='text-black text-[28px] font-bebas_neue'>
-                            DJI
+                            WEDDING
                         </p>
                         <p className='text-[16px] text-[#9a9a9a] mb-2'>
-                        Mountains have always been a symbol of challenge and adventure for many people. dventure and appreciation for nature.
+                        Capture happy moments with your partner and give memories of the first time you fell in love with someone.
                         </p>
                         <div className='flex items-center gap-2 mt-4'>
                             <p className='text-[14px] font-semibold  text-[#000]'> Read More </p> 
@@ -67,7 +67,7 @@ const Filter3 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/image5.png" 
+                                src="/images/bromen.JPG" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -78,10 +78,10 @@ const Filter3 = () => {
                     </div>
                     <div className='col-span-3 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-start sm:justify-self-center w-full'>
                         <p className='text-black text-[28px] font-bebas_neue'>
-                        SKINCARE
+                        PRODUCT
                         </p>
                         <p className='text-[16px] text-[#9a9a9a] mb-2'>
-                        The sky has always been a source of inspiration and awe for mankind since ancient times. science.
+                        Take photos professionally so that the brand is more confident to compete in the international market.
                         </p>
                         <div className='flex items-center gap-2 mt-4'>
                             <p className='text-[14px] font-semibold  text-[#000]'> Read More </p> 
@@ -95,7 +95,7 @@ const Filter3 = () => {
                     <div className='w-full col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-center sm:justify-self-center justify-center hidden sm:block'>
                         <div className='flex items-center'>
                             <Image 
-                                src="/images/canon.jpg" 
+                                src="/images/lanscape.jpg" 
                                 alt='Rental Cars' 
                                 width={200} 
                                 height={200} 
@@ -106,10 +106,10 @@ const Filter3 = () => {
                     </div>
                     <div className='col-span-3 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-3 sm:col-span-3 justify-self-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-self-start sm:justify-self-center w-full'>
                         <p className='text-black text-[28px] font-bebas_neue'>
-                        CANON
+                        LENDSCAPE
                         </p>
                         <p className='text-[16px] text-[#9a9a9a] mb-2'>
-                        Waterfalls are one of the most stunning and awe-inspiring natural wonders in the world.
+                        Landscape photos are photos taken with a horizontal orientation or extending to the side.
                         </p>
                         <div className='flex items-center gap-2 mt-4'>
                             <p className='text-[14px] font-semibold  text-[#000]'> Read More </p> 
