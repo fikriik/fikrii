@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Filter1 from "./Filter1";
 import Filter2 from "./Filter2";
+import Filter3 from "./Filter3";
 
 const Banner = () => {
 
@@ -80,7 +81,7 @@ const Banner = () => {
                     {activeFilter === "modern" && (
                     <div className="">
                         {" "}
-                        <div />{" "}
+                        <Filter3 />{" "}
                     </div>
                     )}
                 </div>
