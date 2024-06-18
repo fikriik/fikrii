@@ -16,7 +16,7 @@ const Banner = () => {
                   Welcome Videographer
                 </p>
                 <h1 className="text-white text-3xl md:text-[50px] font-semibold leading-tight">
-                  Kami Siap Membantu Membangun Brand Kalian Lebih keren!
+                  Kami Siap Membantu Membangun Brand anda Lebih keren!
                 </h1>
                 <p className="mt-8 text-white text-[20px]">
                   Memberi visual sebuah brand yang siap saing di mancanegara,jangan ragu untuk memulai.

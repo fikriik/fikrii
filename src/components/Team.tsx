@@ -200,8 +200,6 @@ function Team() {
             </div>
           </div>
         </div>
-
-       
       </div>
     </>
   );
