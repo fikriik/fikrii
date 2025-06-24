@@ -5,16 +5,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const bebas_neue_init = Bebas_Neue({
-  subsets: ['latin-ext'],
+  subsets: ["latin-ext"],
   weight: "400",
-  variable: '--font-bebas_neue'
-})
+  variable: "--font-bebas_neue",
+});
 
 const dancing_script_init = Dancing_Script({
-  subsets: ['latin'],
+  subsets: ["latin"],
   weight: "700",
-  variable: '--font-dancing_script'
-})
+  variable: "--font-dancing_script",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${bebas_neue_init.variable} ${dancing_script_init.variable}`}>{children}</body>
+      <body
+        className={`${inter.className} ${bebas_neue_init.variable} ${dancing_script_init.variable} bg-white`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
