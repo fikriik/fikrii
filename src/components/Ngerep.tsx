@@ -8,7 +8,7 @@ const Banner = () => {
         className="inset-0 bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url('/images/prau.jpg ')` }}
       >
-        <div className="bg-black bg-opacity-70 w-full h-full">
+        <div className="bg-opacity-70 w-full h-full">
           <div className="container mx-auto max-w-[1140px] py-10 md:py-28 md:px-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 md:mt-28">
               <div className='mt-0 md:mt-0'>

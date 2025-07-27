@@ -56,7 +56,7 @@ const Filter1 = () => {
                         Mountains have always been a symbol of challenge and adventure for many people. dventure and appreciation for nature.
                         </p>
                         <div className='flex items-center gap-2 mt-4'>
-                            <p className='text-[14px] font-semibold  text-[#000]'> Read more </p> 
+                            <p className='text-[14px] font-semibold  text-[#000]'> Read More </p> 
                             <MdKeyboardDoubleArrowRight />
                         </div>
                     </div>
