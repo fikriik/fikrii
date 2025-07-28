@@ -16,15 +16,15 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="inset-0 bg-cover bg-no-repeat bg-center"
+        className="inset-0 bg-[#090909] bg-no-repeat bg-center"
         style={{ backgroundImage: `url('/images/dark_bg.png')` }}
       >
         <div className="">
           <div className="container mx-auto max-w-[1140px] py-10 md:py-28 md:px-0">
-            <p className='font-medium text-[25px] font-bebas_neue text-center text-black mb-6'>
+            <p className='font-medium text-[25px] font-bebas_neue text-center text-white mb-6'>
             CREATE PROFESSIONAL PROJECTS
             </p>
-            <p className='font-medium text-[12px] text-center text-black mb-6 uppercase'>
+            <p className='font-medium text-[12px] text-center text-white mb-6 uppercase'>
             Travel documentation plays an important role in immortalizing the experiences and learning gained during a trip. Whether it&apos;s a personal trip, tourist trip, or business trip, documenting every step and moment that occurs provides many benefits, both for the individual himself and for other people who can learn from the experience.
             </p>
             <div className="mb-10">
