@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link href={"/"} className="flex gap-x-2 items-center mr-[100px]">
             {/* <Image src="/images/nlp-logo.png" alt="logo" width={50} height={40} /> */}
             <h3 className="font-semibold text-white hidden lg:block text-[24px]">
-              hopehospital.
+              maldinurfikry.
             </h3>
           </Link>
         </div>
