@@ -36,7 +36,7 @@ const Banner = () => {
                         <div
                             className={` ${
                             activeFilter === "filter1"
-                                ? "text-[#000] font-medium border-b-[2px] border-[#000]"
+                                ? "text-[#fff] font-medium border-b-[2px] border-[#fff]"
                                 : " text-[#9a9a9a] font-medium hover:border-b-[2px] border-[#000]"
                             }`}
                             onClick={() => handleFilterClick("filter1")}

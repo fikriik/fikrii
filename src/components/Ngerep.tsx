@@ -36,14 +36,14 @@ const Banner = () => {
                       alt="profil"
                       width={400}
                       height={400}
-                      className="border-2 border-[#ffffff50] rounded-tl-[50px]"
+                      className="border-2 border-[#1a1a1a] rounded-tl-[50px]"
                     />
                     <Image
                       src="/images/ai1.jpg"
                       width={350}
                       height={150}
                       alt="mail"
-                      className="border-2 border-[#ffffff50] absolute bottom-0 -left-[8%] lg:w-60 lg:-left-[30%] top-[63%] rounded-tr-[50px]"
+                      className="border-2 border-[#1a1a1a] absolute bottom-0 -left-[8%] lg:w-60 lg:-left-[30%] top-[63%] rounded-tr-[50px]"
                     />
                   </div>
                 </div>
