@@ -12,7 +12,7 @@ const Banner = () => {
           <div className="container mx-auto max-w-[1140px] py-10 md:py-28 md:px-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 md:mt-28">
               <div className="mt-0 md:mt-0">
-                <p className="text-[36px] font-medium font-dancing_script mb-5 text-[#a298ed]">
+                <p className="text-[36px] font-medium font-dancing_script mb-5 text-[#52ad89]">
                   Welcome to My Visual World
                 </p>
                 <h1 className="text-white text-3xl md:text-[50px] font-semibold leading-tight">
