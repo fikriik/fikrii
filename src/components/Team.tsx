@@ -3,206 +3,82 @@ import { PiCaretRightBold } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
 import { RiInstagramFill } from "react-icons/ri";
+// components/Footer.tsx
 
-function Team() {
+export default function Footer() {
   return (
-    <>
-      <p className=" font-bold text-center text-3xl mb-2 text-[#3c3c3c]">
-        Meet The Team
-      </p>
-      <p className="font-normal text-center text-md mb-14 text-[#3c3c3c] px-2">
-        Here are our dedicated team, ready to create with you!
-      </p>
-
-      <div className="grid grid-cols-5 gap-2 mt-10 mx-5 2xl:mx-0 xl:mx-0 lg:mx-0 md:mx-5 sm:mx-5">
-        <div className="col-span-5 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-1 sm:col-span-4">
-          <div className="hover:bg-white border-[#EEEEEE] rounded-xl px-7 py-8">
-            <div className="col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 flex items-center">
-              {/* Gambar di sini */}
-              <Image
-                src="/images/fikrii.jpeg"
-                alt="profil"
-                width={140}
-                height={100} // Lebih responsif untuk perangkat seluler
-                className="rounded-[70px] mb-4 ml-auto mr-auto border-[4px] border-[#368AB2]"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <h1 className="text-center text-lg font-semibold text-[#3c3c3c] flex items-center mb-2">
-                M. Aldi Nur Fikry
-              </h1>
-            </div>
-            <div className="flex items-center justify-center">
-              <p className="text-center text-[#545454] text-sm font-normal flex items-center mb-6">
-                Videographer
-              </p>
-            </div>
-
-            <div className="mb-0 flex items-center justify-center">
-              <Link
-                href="/aufal-marom"
-                target="_blank"
-                className="flex items-center text-md bg-transparent border-[2px] rounded-[28px] text-[#368AB2] py-2 px-6"
-              >
-                <span className="text-sm rounded-2xl font-semibold mr-3 text-white py-1 px-1 bg-[#368AB2]">
-                <RiInstagramFill size={20} />
-                </span>
-                Lihat Profil 
-              </Link>
-            </div>
-          </div>
+    <footer className="bg-black text-gray-300 px-6 py-12 mt-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        {/* Company */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Company</h3>
+          <ul className="space-y-2">
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/careers" className="text-green-400">Careers <span className="ml-1 text-xs bg-green-600 px-2 py-0.5 rounded">We’re hiring!</span></Link></li>
+            <li><Link href="/customers">Customers</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/pricing">Pricing</Link></li>
+            <li><Link href="/privacy">Privacy policy</Link></li>
+            <li><Link href="/terms">Terms</Link></li>
+          </ul>
         </div>
-        <div className="col-span-5 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-1 sm:col-span-4">
-          <div className="hover:bg-white border-[#EEEEEE] rounded-xl px-7 py-8">
-            <div className="col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 flex items-center">
-              {/* Gambar di sini */}
-              <Image
-                src="/images/LUTPI.jpg"
-                alt="profil"
-                width={140}
-                height={100} // Lebih responsif untuk perangkat seluler
-                className="rounded-[70px] mb-4 ml-auto mr-auto border-[4px] border-[#368AB2]"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <h1 className="text-center text-lg font-semibold text-[#3c3c3c] flex items-center mb-2">
-                AHMAD LUTHFI
-              </h1>
-            </div>
-            <div className="flex items-center justify-center">
-              <p className="text-center text-[#545454] text-sm font-normal flex items-center mb-6">
-                Videographer
-              </p>
-            </div>
 
-            <div className="mb-0 flex items-center justify-center">
-              <Link
-                href="/aufal-marom"
-                target="_blank"
-                className="flex items-center text-md bg-transparent border-[2px] rounded-[28px] text-[#368AB2] py-2 px-6"
-              >
-                <span className="text-sm rounded-2xl font-semibold mr-3 text-white py-1 px-1 bg-[#368AB2]">
-                <RiInstagramFill size={20} />
-                </span>
-                Lihat Profil 
-              </Link>
-            </div>
-          </div>
+        {/* Products */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Products</h3>
+          <ul className="space-y-2">
+            <li><Link href="/explorer">Explorer</Link></li>
+            <li><Link href="/sheets">Sheets</Link></li>
+            <li><Link href="/api">API</Link></li>
+            <li><Link href="/data-room">Data Room</Link></li>
+          </ul>
         </div>
-        <div className="col-span-5 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-1 sm:col-span-4">
-          <div className="hover:bg-white border-[#EEEEEE] rounded-xl px-7 py-8">
-            <div className="col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 flex items-center">
-              {/* Gambar di sini */}
-              <Image
-                src="/images/AIZUL.jpg"
-                alt="profil"
-                width={140}
-                height={100} // Lebih responsif untuk perangkat seluler
-                className="rounded-[70px] mb-4 ml-auto mr-auto border-[4px] border-[#368AB2]"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <h1 className="text-center text-lg font-semibold text-[#3c3c3c] flex items-center mb-2">
-               AIZUL MAHASIN
-              </h1>
-            </div>
-            <div className="flex items-center justify-center">
-              <p className="text-center text-[#545454] text-sm font-normal flex items-center mb-6">
-                Photographer
-              </p>
-            </div>
 
-            <div className="mb-0 flex items-center justify-center">
-              <Link
-                href="/aufal-marom"
-                target="_blank"
-                className="flex items-center text-md bg-transparent border-[2px] rounded-[28px] text-[#368AB2] py-2 px-6"
-              >
-                <span className="text-sm rounded-2xl font-semibold mr-3 text-white py-1 px-1 bg-[#368AB2]">
-                <RiInstagramFill size={20} />
-                </span>
-                Lihat Profil 
-              </Link>
-            </div>
-          </div>
+        {/* Explore */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Explore</h3>
+          <ul className="space-y-2">
+            <li><Link href="/api-docs">API Docs</Link></li>
+            <li><Link href="/changelog">Changelog</Link></li>
+            <li><Link href="/docs">Docs</Link></li>
+            <li><Link href="/mvtti0f">MVTTI0F (index)</Link></li>
+            <li><Link href="/mvtti0m">MVTTI0M (index)</Link></li>
+            <li><Link href="/resources">Resources</Link></li>
+          </ul>
         </div>
-        <div className="col-span-5 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-1 sm:col-span-4">
-          <div className="hover:bg-white border-[#EEEEEE] rounded-xl px-7 py-8">
-            <div className="col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 flex items-center">
-              {/* Gambar di sini */}
-              <Image
-                src="/images/aji.jpg"
-                alt="profil"
-                width={140}
-                height={100} // Lebih responsif untuk perangkat seluler
-                className="rounded-[70px] mb-4 ml-auto mr-auto border-[4px] border-[#368AB2]"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <h1 className="text-center text-lg font-semibold text-[#3c3c3c] flex items-center mb-2">
-               SURYA AJI
-              </h1>
-            </div>
-            <div className="flex items-center justify-center">
-              <p className="text-center text-[#545454] text-sm font-normal flex items-center mb-6">
-                Photography
-              </p>
-            </div>
 
-            <div className="mb-0 flex items-center justify-center">
-              <Link
-                href="/aufal-marom"
-                target="_blank"
-                className="flex items-center text-md bg-transparent border-[2px] rounded-[28px] text-[#368AB2] py-2 px-6"
-              >
-                <span className="text-sm rounded-2xl font-semibold mr-3 text-white py-1 px-1 bg-[#368AB2]">
-                <RiInstagramFill size={20} />
-                </span>
-                Lihat Profil 
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-span-5 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-1 sm:col-span-4">
-          <div className="hover:bg-white border-[#EEEEEE] rounded-xl px-7 py-8">
-            <div className="col-span-3 2xl:col-span-1 xl:col-span-1 lg:col-span-1 md:col-span-3 sm:col-span-3 flex items-center">
-              {/* Gambar di sini */}
-              <Image
-                src="/images/ninok.jpg"
-                alt="profil"
-                width={140}
-                height={100} // Lebih responsif untuk perangkat seluler
-                className="rounded-[70px] mb-4 ml-auto mr-auto border-[4px] border-[#368AB2]"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <h1 className="text-center text-lg font-semibold text-[#3c3c3c] flex items-center mb-2">
-                NIKMATUL LAILIYAH
-              </h1>
-            </div>
-            <div className="flex items-center justify-center">
-              <p className="text-center text-[#545454] text-sm font-normal flex items-center mb-6">
-                Videographer
-              </p>
-            </div>
-
-            <div className="mb-0 flex items-center justify-center">
-              <Link
-                href="/aufal-marom"
-                target="_blank"
-                className="flex items-center text-md bg-transparent border-[2px] rounded-[28px] text-[#368AB2] py-2 px-6"
-              >
-                <span className="text-sm rounded-2xl font-semibold mr-3 text-white py-1 px-1 bg-[#368AB2]">
-                <RiInstagramFill size={20} />
-                </span>
-                Lihat Profil 
-              </Link>
-            </div>
-          </div>
+        {/* Socials */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Socials</h3>
+          <ul className="space-y-2">
+            <li><a href="https://x.com" target="_blank">X</a></li>
+            <li><a href="https://discord.com" target="_blank">Discord</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="#">Podcast</a></li>
+          </ul>
         </div>
       </div>
-    </>
+
+      {/* Newsletter */}
+      <div className="mt-12 max-w-7xl mx-auto">
+        <p className="mb-4">Subscribe to our weekly newsletter</p>
+        <div className="flex max-w-md">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="flex-1 px-4 py-2 rounded-l bg-gray-800 border border-gray-700 focus:outline-none"
+          />
+          <button className="px-4 py-2 bg-green-500 text-black font-semibold rounded-r">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="mt-12 text-sm text-gray-500">
+        © 2025 Token Terminal
+      </div>
+    </footer>
   );
 }
-
-export default Team;
