@@ -1,20 +1,25 @@
 import React from "react";
-import { PiCaretRightBold } from "react-icons/pi";
 import Link from "next/link";
-import Image from "next/image";
-import { RiInstagramFill } from "react-icons/ri";
-// components/Footer.tsx
 
+// components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-300 px-6 py-12 mt-12">
+    <footer className="bg-[#090909] text-gray-300 px-6 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        
         {/* Company */}
         <div>
           <h3 className="text-white font-semibold mb-3">Company</h3>
           <ul className="space-y-2">
             <li><Link href="/about">About</Link></li>
-            <li><Link href="/careers" className="text-green-400">Careers <span className="ml-1 text-xs bg-green-600 px-2 py-0.5 rounded">We’re hiring!</span></Link></li>
+            <li>
+              <Link href="/careers" className="text-green-400">
+                Careers 
+                <span className="ml-1 text-xs bg-green-600 px-2 py-0.5 rounded">
+                  We’re hiring!
+                </span>
+              </Link>
+            </li>
             <li><Link href="/customers">Customers</Link></li>
             <li><Link href="/contact">Contact</Link></li>
             <li><Link href="/pricing">Pricing</Link></li>
@@ -51,10 +56,10 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Socials</h3>
           <ul className="space-y-2">
-            <li><a href="https://x.com" target="_blank">X</a></li>
-            <li><a href="https://discord.com" target="_blank">Discord</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a></li>
+            <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
             <li><a href="#">Podcast</a></li>
           </ul>
         </div>
@@ -69,15 +74,15 @@ export default function Footer() {
             placeholder="Enter your email"
             className="flex-1 px-4 py-2 rounded-l bg-gray-800 border border-gray-700 focus:outline-none"
           />
-          <button className="px-4 py-2 bg-green-500 text-black font-semibold rounded-r">
+          <button className="px-4 py-2 bg-green-500 text-black font-semibold rounded-r hover:bg-green-400 transition">
             Subscribe
           </button>
         </div>
       </div>
 
       {/* Copyright */}
-      <div className="mt-12 text-sm text-gray-500">
-        © 2025 Token Terminal
+      <div className="mt-12 text-sm text-gray-500 text-center">
+        © {new Date().getFullYear()} maldinurfikry
       </div>
     </footer>
   );
