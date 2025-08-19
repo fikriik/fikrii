@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar"
 import Ngerep from "@/components/Ngerep";
 import Seaction from "@/components/Seaction";
-import Team from "@/components/Team";
+import Team from "@/components/Footer";
 
 export default function Home() {
   return (
