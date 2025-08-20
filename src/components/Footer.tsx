@@ -4,7 +4,7 @@ import Link from "next/link";
 // components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="bg-[#090909] text-gray-300 px-6 py-12">
+    <footer className="bg-black text-gray-300 px-6 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         
         {/* Company */}
@@ -12,14 +12,7 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-3">Company</h3>
           <ul className="space-y-2">
             <li><Link href="/about">About</Link></li>
-            <li>
-              <Link href="/careers" className="text-green-400">
-                Careers 
-                <span className="ml-1 text-xs bg-green-600 px-2 py-0.5 rounded">
-                  We’re hiring!
-                </span>
-              </Link>
-            </li>
+            <li><Link href="/customers">Careers</Link></li>
             <li><Link href="/customers">Customers</Link></li>
             <li><Link href="/contact">Contact</Link></li>
             <li><Link href="/pricing">Pricing</Link></li>
