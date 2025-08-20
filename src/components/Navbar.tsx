@@ -44,9 +44,9 @@ const Navbar = () => {
           <p className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer mr-10">
             VIDEOGRAPHY
           </p>
-          <p className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer">
+          <Link href={"/contact"} className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer">
             CONTACT
-          </p>
+          </Link>
         </div>
       </div>
 
