@@ -35,18 +35,20 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex items-center gap-6">
-          <p className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer mr-10">
-            PORTFOLIO
+          <p className="flex items-center text-[14px] text-[#989898] hover:text-[#ffffff] cursor-pointer mr-10 font-medium">
+            Home
           </p>
-          <p className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer mr-10">
-            PROFESSIONAL
+          <p className="flex items-center text-[14px] text-[#989898] hover:text-[#ffffff] cursor-pointer mr-10 font-medium">
+            Services
           </p>
-          <p className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer mr-10">
-            VIDEOGRAPHY
+          <p className="flex items-center text-[14px] text-[#989898] hover:text-[#ffffff] cursor-pointer mr-10 font-medium">
+            Pricing
           </p>
-          <Link href={"/contact"} className="flex items-center text-[12px] text-[#ffffff] hover:text-black cursor-pointer">
-            CONTACT
-          </Link>
+          <p
+            className="flex items-center text-[14px] text-[#989898] hover:text-[#ffffff] cursor-pointer mr-10 font-medium"
+          >
+            Past Projects
+          </p>
         </div>
       </div>
 
